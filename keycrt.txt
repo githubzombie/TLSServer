@@ -1,0 +1,1 @@
+openssl req -newkey rsa:2048 -nodes -keyout server.key -x509 -days 3 -out server.crt -subj "/C=KR/ST=Gyeonggi/L=Anyang/O=Lab/OU=RedTeam/CN=10.0.128.13"
